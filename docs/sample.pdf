@@ -1,0 +1,148 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /Outlines 13 0 R /PageMode /UseOutlines >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R 10 0 R 12 0 R] /Count 4 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+5 0 obj
+<< /Length 703 >>
+stream
+0.06 0.46 0.43 rg 72 744 468 3 re f 0 g
+BT /F2 30 Tf 72 700 Td (Feather PDF) Tj ET
+BT /F1 12 Tf 17 TL 72 668 Td
+() Tj T*
+(A fast PDF reader that stays light on memory.) Tj T*
+() Tj T*
+(This sample document is part of the Feather PDF repository. Open it to try) Tj T*
+(the reader: the Contents sidebar on the left lists the sections below, the) Tj T*
+(toolbar has page navigation, zoom and search, and you can select and copy) Tj T*
+(any of this text.) Tj T*
+() Tj T*
+(Feather PDF is written in Rust on top of PDFium, the PDF engine used by) Tj T*
+(Google Chrome. The interface is drawn with plain Win32 and GDI, so there is) Tj T*
+(no browser engine or UI framework running in the background.) Tj T*
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 897 >>
+stream
+0.06 0.46 0.43 rg 72 744 468 3 re f 0 g
+BT /F2 22 Tf 72 700 Td (1. Reading) Tj ET
+BT /F1 12 Tf 17 TL 72 668 Td
+() Tj T*
+(Scroll with the mouse wheel, the arrow keys, Page Up and Page Down, or the) Tj T*
+(thin scrollbar on the right. Type a page number into the page box in the) Tj T*
+(toolbar to jump straight to it.) Tj T*
+() Tj T*
+(Zoom with Ctrl and the mouse wheel; the point under the pointer stays where it) Tj T*
+(is. Ctrl+0 fits the page width, Ctrl+2 fits the whole page, and Ctrl+1 shows) Tj T*
+(the page at its real size. In fit-page mode, Page Down moves exactly one page.) Tj T*
+() Tj T*
+(Press F11 for full screen. The toolbar and sidebar step aside, and a small) Tj T*
+(label shows the page number as you read. Esc brings everything back.) Tj T*
+() Tj T*
+(When you close a document, Feather PDF remembers the page, zoom and fit mode,) Tj T*
+(and opens it there next time.) Tj T*
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 747 >>
+stream
+0.06 0.46 0.43 rg 72 744 468 3 re f 0 g
+BT /F2 22 Tf 72 700 Td (2. Finding and copying) Tj ET
+BT /F1 12 Tf 17 TL 72 668 Td
+() Tj T*
+(Press Ctrl+F to open the search field in the toolbar. Enter jumps to the next) Tj T*
+(match and Shift+Enter to the previous one. Every match on screen is marked in) Tj T*
+(yellow, and the current one in orange.) Tj T*
+() Tj T*
+(Long documents are searched in short slices, so the window keeps responding) Tj T*
+(while the search runs through hundreds of pages.) Tj T*
+() Tj T*
+(Drag across text to select it, double-click to select a word, or press Ctrl+A) Tj T*
+(to select the whole page. Ctrl+C copies the selection. Words that were) Tj T*
+(hyphenated across a line break are joined again when copied.) Tj T*
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Length 790 >>
+stream
+0.06 0.46 0.43 rg 72 744 468 3 re f 0 g
+BT /F2 22 Tf 72 700 Td (3. How it stays light) Tj ET
+BT /F1 12 Tf 17 TL 72 668 Td
+() Tj T*
+(Only the pages on screen are rendered, at screen resolution. Rendered pages) Tj T*
+(are kept in a cache with a fixed budget of 32 MB; the least recently used ones) Tj T*
+(are dropped first, and the cache is emptied when the window is minimized.) Tj T*
+() Tj T*
+(At high zoom, only the visible part of a page is rendered, so a page shown at) Tj T*
+(800 percent does not need a bitmap hundreds of megabytes large.) Tj T*
+() Tj T*
+(The file itself is read on demand instead of being loaded into memory, and when) Tj T*
+(the PDF engine builds up too much internal data from pages it has visited, the) Tj T*
+(document is quietly reopened to release it.) Tj T*
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> >> /Contents 11 0 R >>
+endobj
+13 0 obj
+<< /Type /Outlines /First 14 0 R /Last 17 0 R /Count 4 >>
+endobj
+14 0 obj
+<< /Title (Feather PDF) /Parent 13 0 R /Next 15 0 R /Dest [6 0 R /XYZ 0 792 0] >>
+endobj
+15 0 obj
+<< /Title (1. Reading) /Parent 13 0 R /Prev 14 0 R /Next 16 0 R /Dest [8 0 R /XYZ 0 792 0] >>
+endobj
+16 0 obj
+<< /Title (2. Finding and copying) /Parent 13 0 R /Prev 15 0 R /Next 17 0 R /Dest [10 0 R /XYZ 0 792 0] >>
+endobj
+17 0 obj
+<< /Title (3. How it stays light) /Parent 13 0 R /Prev 16 0 R /Dest [12 0 R /XYZ 0 792 0] >>
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000000009 00000 n 
+0000000098 00000 n 
+0000000175 00000 n 
+0000000245 00000 n 
+0000000320 00000 n 
+0000001073 00000 n 
+0000001209 00000 n 
+0000002156 00000 n 
+0000002292 00000 n 
+0000003089 00000 n 
+0000003226 00000 n 
+0000004067 00000 n 
+0000004205 00000 n 
+0000004279 00000 n 
+0000004377 00000 n 
+0000004487 00000 n 
+0000004610 00000 n 
+trailer
+<< /Size 18 /Root 1 0 R /Info << /Title (Feather PDF sample) /Producer (Feather PDF) >> >>
+startxref
+4719
+%%EOF
