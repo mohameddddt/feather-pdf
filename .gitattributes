@@ -1,0 +1,4 @@
+# PDFs are binary even when they happen to be ASCII: line-ending conversion would break their byte offsets.
+*.pdf binary
+*.dll binary
+*.png binary
